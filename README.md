@@ -66,7 +66,7 @@ The model classifies flowers into three species:
 🙋‍♂️ Author  
 G.Kalaiyarasan
 AI/ML Intern – NSP NEXUS  
-📧 Email: kalai645645@gmail.com
+📧 Email: gskalai645@gmail.com
 
 🙌 Acknowledgements  
 - Scikit-learn Iris Dataset  
