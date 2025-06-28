@@ -78,14 +78,16 @@ Petal Width (e.g., 0.2)
 View the predicted species for your input
 
 📁 Files Included
-Iris_Classification.ipynb — Main project notebook
+
+iris-flower-classification.ipynb — Main project notebook
 
 README.md — This file, containing the project summary and usage guide
 
 🙋‍♂️ Author
-M. Mohamed Anas
+
+G.Kalaiyarasan
 AI/ML Intern – NSP NEXUS
-📧 Email: m.mohamedanas10.06@gmail.com
+📧 Email: kalai645645@gmail.com
 
 🙌 Acknowledgements
 Scikit-learn Iris Dataset
