@@ -1,98 +1,74 @@
 🌼 Iris Flower Classification – AI/ML Internship Project (Week 1)
-This project was completed as part of my AI & ML Internship with NSP NEXUS.
-It demonstrates how to build a machine learning model to classify Iris flower species based on four key features:
 
-Sepal Length
+This project was completed as part of my AI & ML Internship with NSP NEXUS.  
+It involves building a machine learning model to classify iris flower species based on four key features:  
+Sepal Length, Sepal Width, Petal Length, and Petal Width.
 
-Sepal Width
+🔍 One-Line Description  
+A beginner-friendly machine learning model built in Python using Google Colab that predicts the species of an iris flower from its petal and sepal measurements.
 
-Petal Length
+📌 Project Overview  
+This notebook-based project uses the famous Iris dataset to demonstrate a basic classification task using supervised learning.  
+The model classifies flowers into three species:
 
-Petal Width
+- Setosa  
+- Versicolor  
+- Virginica
 
-🔍 One-Line Description
-A beginner-friendly machine learning model built in Python using Google Colab that predicts the species of an iris flower using its petal and sepal measurements.
+🎯 Learning Objectives  
+- Understand basic classification using ML  
+- Load and explore datasets using pandas  
+- Visualize data using seaborn and matplotlib  
+- Train a classification model using KNeighborsClassifier  
+- Evaluate model performance using accuracy and confusion matrix  
+- Allow users to manually input their own flower measurements and predict the species
 
-📌 Project Overview
-This notebook-based project uses the well-known Iris Dataset to perform a supervised classification task.
-It aims to classify iris flowers into one of the following three species:
+🛠️ Tools & Technologies Used  
+- Google Colab (Notebook)  
+- Python  
+- Libraries:  
+  - pandas  
+  - numpy  
+  - matplotlib  
+  - seaborn  
+  - scikit-learn  
 
-Setosa
+🧪 Sample User Inputs (for Testing Predictions)
 
-Versicolor
+| Sepal Length | Sepal Width | Petal Length | Petal Width | Expected Species |
+|--------------|-------------|--------------|-------------|------------------|
+| 5.1          | 3.5         | 1.4          | 0.2         | Setosa 🌸         |
+| 6.0          | 2.8         | 4.35         | 1.3         | Versicolor 🌿     |
+| 6.5          | 3.0         | 5.5          | 2.0         | Virginica 🌺      |
 
-Virginica
+✅ Features Implemented  
+- Load and display Iris dataset  
+- Data exploration using visualizations (pair plots, count plots)  
+- Data preprocessing and train/test split  
+- K-Nearest Neighbors model training  
+- Evaluation using classification report and confusion matrix  
+- Custom user input support to predict flower species dynamically
 
-The project includes data loading, exploration, visualization, model building, evaluation, and even a custom user input prediction feature!
+📎 How to Use This Notebook  
+1. Open the notebook in Google Colab  
+2. Run each cell step by step  
+3. In the “User Input Section”, provide:
+   - Sepal Length (e.g., 5.1)  
+   - Sepal Width (e.g., 3.5)  
+   - Petal Length (e.g., 1.4)  
+   - Petal Width (e.g., 0.2)  
+4. View the predicted species for the given inputs
 
-🎯 Learning Objectives
-Understand basic classification concepts in Machine Learning
+📁 Files Included  
+- Iris_Classification.ipynb — Main project notebook  
+- README.md — This file (project summary)
 
-Load and manipulate datasets using pandas
+🙋‍♂️ Author  
+M. Mohamed Anas  
+AI/ML Intern – NSP NEXUS  
+📧 Email: m.mohamedanas10.06@gmail.com
 
-Visualize patterns and distributions using matplotlib and seaborn
-
-Train a classification model using K-Nearest Neighbors (KNN)
-
-Evaluate model accuracy using metrics like classification report and confusion matrix
-
-Allow users to manually input measurements and predict flower species
-
-🛠️ Tools & Technologies Used
-Tool/Library	Purpose
-Google Colab	Interactive coding environment
-Python	Core programming language
-pandas, numpy	Data handling and numerical ops
-seaborn, matplotlib	Data visualization
-scikit-learn	ML models and evaluation tools
-
-🧪 Sample User Inputs for Testing
-Sepal Length	Sepal Width	Petal Length	Petal Width	Expected Species
-5.1	3.5	1.4	0.2	Setosa 🌸
-6.0	2.8	4.35	1.3	Versicolor 🌿
-6.5	3.0	5.5	2.0	Virginica 🌺
-
-✅ Features Implemented
-✔️ Load and display the Iris dataset
-✔️ Perform data exploration and visualization (pair plots, count plots, heatmaps)
-✔️ Preprocess data and perform train-test split
-✔️ Train a K-Nearest Neighbors (KNN) model
-✔️ Evaluate model performance (accuracy, confusion matrix, classification report)
-✔️ Enable user to manually input values and predict species dynamically
-
-📎 How to Use This Notebook
-Open the notebook in Google Colab
-
-Run all the cells one by one
-
-In the “User Input Section”, enter:
-
-Sepal Length (e.g., 5.1)
-
-Sepal Width (e.g., 3.5)
-
-Petal Length (e.g., 1.4)
-
-Petal Width (e.g., 0.2)
-
-View the predicted species for your input
-
-📁 Files Included
-
-iris-flower-classification.ipynb — Main project notebook
-
-README.md — This file, containing the project summary and usage guide
-
-🙋‍♂️ Author
-
-G.Kalaiyarasan
-AI/ML Intern – NSP NEXUS
-
-📧 Email: kalai645645@gmail.com
-
-🙌 Acknowledgements
-Scikit-learn Iris Dataset
-
-NSP NEXUS Internship Program
-
-Mentors, peers, and community support
+🙌 Acknowledgements  
+- Scikit-learn Iris Dataset  
+- NSP NEXUS Internship Team  
+- Mentors and community support
